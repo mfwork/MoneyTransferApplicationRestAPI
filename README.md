@@ -1,6 +1,4 @@
-=============================================
 # MoneyTransferApplicationRestAPI
-=============================================
 
 1. Application is for initial design for general banking transfers with selling buying exchange rates.
 
@@ -22,13 +20,10 @@
    so file is already there on GitHub as well.
 
 
-=============================================
 # Quick calls 
 =============================================
 
-=============================================
 #Loaded data sample when server started - get all users
-=============================================
 Get Request:
 http://localhost:9998/user/all
 
