@@ -25,8 +25,9 @@
 =============================================
 # Quick calls 
 =============================================
+
 =============================================
-Loaded data sample when server started - get all users
+#Loaded data sample when server started - get all users
 =============================================
 Get Request:
 http://localhost:9998/user/all
