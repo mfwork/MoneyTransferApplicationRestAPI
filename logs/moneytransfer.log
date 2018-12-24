@@ -1,0 +1,120 @@
+2018-12-24 17:58:13,141 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 17:58:13,141 [main] [INFO ] [JDKHttpServer] ####################### JDKHttpServer Server started successfully #######################
+2018-12-24 17:58:13,141 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 17:58:14,302 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists
+2018-12-24 17:58:14,304 [main] [ERROR] [SchemaExport] Table "ACCOUNT" not found; SQL statement:
+alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists [42102-192]
+2018-12-24 17:58:14,304 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists
+2018-12-24 17:58:14,304 [main] [ERROR] [SchemaExport] Table "BENEFICARY" not found; SQL statement:
+alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists [42102-192]
+2018-12-24 17:58:14,304 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists
+2018-12-24 17:58:14,304 [main] [ERROR] [SchemaExport] Table "OWNTRANSFER" not found; SQL statement:
+alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists [42102-192]
+2018-12-24 17:58:14,494 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 17:58:14,494 [main] [INFO ] [JDKHttpServer] #######################      Sample data loaded successfully      #######################
+2018-12-24 17:58:14,494 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:33:37,202 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:33:37,202 [main] [INFO ] [JDKHttpServer] ####################### JDKHttpServer Server started successfully #######################
+2018-12-24 18:33:37,203 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:33:39,557 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists
+2018-12-24 18:33:39,557 [main] [ERROR] [SchemaExport] Table "ACCOUNT" not found; SQL statement:
+alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists [42102-192]
+2018-12-24 18:33:39,558 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists
+2018-12-24 18:33:39,558 [main] [ERROR] [SchemaExport] Table "BENEFICARY" not found; SQL statement:
+alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists [42102-192]
+2018-12-24 18:33:39,558 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists
+2018-12-24 18:33:39,558 [main] [ERROR] [SchemaExport] Table "OWNTRANSFER" not found; SQL statement:
+alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists [42102-192]
+2018-12-24 18:33:39,836 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:33:39,836 [main] [INFO ] [JDKHttpServer] #######################      Sample data loaded successfully      #######################
+2018-12-24 18:33:39,836 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:38:20,908 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:38:20,908 [main] [INFO ] [JDKHttpServer] ####################### JDKHttpServer Server started successfully #######################
+2018-12-24 18:38:20,908 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:38:21,732 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists
+2018-12-24 18:38:21,734 [main] [ERROR] [SchemaExport] Table "ACCOUNT" not found; SQL statement:
+alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists [42102-192]
+2018-12-24 18:38:21,734 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists
+2018-12-24 18:38:21,734 [main] [ERROR] [SchemaExport] Table "BENEFICARY" not found; SQL statement:
+alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists [42102-192]
+2018-12-24 18:38:21,734 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists
+2018-12-24 18:38:21,734 [main] [ERROR] [SchemaExport] Table "OWNTRANSFER" not found; SQL statement:
+alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists [42102-192]
+2018-12-24 18:38:21,889 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:38:21,889 [main] [INFO ] [JDKHttpServer] #######################      Sample data loaded successfully      #######################
+2018-12-24 18:38:21,889 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:50:18,702 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:50:18,703 [main] [INFO ] [JDKHttpServer] ####################### JDKHttpServer Server started successfully #######################
+2018-12-24 18:50:18,703 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:50:19,767 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists
+2018-12-24 18:50:19,769 [main] [ERROR] [SchemaExport] Table "ACCOUNT" not found; SQL statement:
+alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists [42102-192]
+2018-12-24 18:50:19,770 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists
+2018-12-24 18:50:19,770 [main] [ERROR] [SchemaExport] Table "BENEFICARY" not found; SQL statement:
+alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists [42102-192]
+2018-12-24 18:50:19,770 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists
+2018-12-24 18:50:19,770 [main] [ERROR] [SchemaExport] Table "OWNTRANSFER" not found; SQL statement:
+alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists [42102-192]
+2018-12-24 18:50:19,988 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:50:19,988 [main] [INFO ] [JDKHttpServer] #######################      Sample data loaded successfully      #######################
+2018-12-24 18:50:19,988 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:59:02,519 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:59:02,519 [main] [INFO ] [JDKHttpServer] ####################### JDKHttpServer Server started successfully #######################
+2018-12-24 18:59:02,519 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:59:03,423 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists
+2018-12-24 18:59:03,425 [main] [ERROR] [SchemaExport] Table "ACCOUNT" not found; SQL statement:
+alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists [42102-192]
+2018-12-24 18:59:03,425 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists
+2018-12-24 18:59:03,425 [main] [ERROR] [SchemaExport] Table "BENEFICARY" not found; SQL statement:
+alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists [42102-192]
+2018-12-24 18:59:03,425 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists
+2018-12-24 18:59:03,425 [main] [ERROR] [SchemaExport] Table "OWNTRANSFER" not found; SQL statement:
+alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists [42102-192]
+2018-12-24 18:59:03,596 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:59:03,596 [main] [INFO ] [JDKHttpServer] #######################      Sample data loaded successfully      #######################
+2018-12-24 18:59:03,596 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:59:41,998 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:59:41,999 [main] [INFO ] [JDKHttpServer] ####################### JDKHttpServer Server started successfully #######################
+2018-12-24 18:59:41,999 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:59:43,665 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists
+2018-12-24 18:59:43,665 [main] [ERROR] [SchemaExport] Table "ACCOUNT" not found; SQL statement:
+alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists [42102-192]
+2018-12-24 18:59:43,665 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists
+2018-12-24 18:59:43,665 [main] [ERROR] [SchemaExport] Table "BENEFICARY" not found; SQL statement:
+alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists [42102-192]
+2018-12-24 18:59:43,665 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists
+2018-12-24 18:59:43,665 [main] [ERROR] [SchemaExport] Table "OWNTRANSFER" not found; SQL statement:
+alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists [42102-192]
+2018-12-24 18:59:43,952 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 18:59:43,952 [main] [INFO ] [JDKHttpServer] #######################      Sample data loaded successfully      #######################
+2018-12-24 18:59:43,952 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 19:00:09,566 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 19:00:09,567 [main] [INFO ] [JDKHttpServer] ####################### JDKHttpServer Server started successfully #######################
+2018-12-24 19:00:09,567 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 19:00:11,803 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists
+2018-12-24 19:00:11,804 [main] [ERROR] [SchemaExport] Table "ACCOUNT" not found; SQL statement:
+alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists [42102-192]
+2018-12-24 19:00:11,804 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists
+2018-12-24 19:00:11,805 [main] [ERROR] [SchemaExport] Table "BENEFICARY" not found; SQL statement:
+alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists [42102-192]
+2018-12-24 19:00:11,806 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists
+2018-12-24 19:00:11,806 [main] [ERROR] [SchemaExport] Table "OWNTRANSFER" not found; SQL statement:
+alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists [42102-192]
+2018-12-24 19:00:12,158 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 19:00:12,158 [main] [INFO ] [JDKHttpServer] #######################      Sample data loaded successfully      #######################
+2018-12-24 19:00:12,158 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 19:05:13,286 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 19:05:13,286 [main] [INFO ] [JDKHttpServer] ####################### JDKHttpServer Server started successfully #######################
+2018-12-24 19:05:13,286 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 19:05:14,081 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists
+2018-12-24 19:05:14,083 [main] [ERROR] [SchemaExport] Table "ACCOUNT" not found; SQL statement:
+alter table ACCOUNT drop constraint FK_qlneo0d758adrojwe2pv6lm1c if exists [42102-192]
+2018-12-24 19:05:14,083 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists
+2018-12-24 19:05:14,083 [main] [ERROR] [SchemaExport] Table "BENEFICARY" not found; SQL statement:
+alter table Beneficary drop constraint FK_4fy0tphnr89cfm76nkq9j640m if exists [42102-192]
+2018-12-24 19:05:14,083 [main] [ERROR] [SchemaExport] HHH000389: Unsuccessful: alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists
+2018-12-24 19:05:14,083 [main] [ERROR] [SchemaExport] Table "OWNTRANSFER" not found; SQL statement:
+alter table OwnTransfer drop constraint FK_jiq6ip6p3wmhtxv4r628orcy2 if exists [42102-192]
+2018-12-24 19:05:14,267 [main] [INFO ] [JDKHttpServer] #########################################################################################
+2018-12-24 19:05:14,267 [main] [INFO ] [JDKHttpServer] #######################      Sample data loaded successfully      #######################
+2018-12-24 19:05:14,267 [main] [INFO ] [JDKHttpServer] #########################################################################################
