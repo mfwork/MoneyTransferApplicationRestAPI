@@ -21,9 +21,8 @@
 
 
 # Quick calls 
-=============================================
+
 1. Loaded data sample when server started - get all users
-=============================================
 Get Request:
 http://localhost:9998/user/all
 
@@ -43,9 +42,8 @@ Response:
 }
 ],
 
-=============================================
-2. get all accounts 
-=============================================
+2. Get all accounts 
+
 Get Request:
 http://localhost:9998/account/all
 
@@ -89,11 +87,8 @@ Response:
 }
 ],
 
-=============================================
-3. Create new transfer - http://localhost:9998/transfer/create
-=============================================
-Post Request: 
 
+3. Create new transfer - http://localhost:9998/transfer/create
 
 Body Request:
 {
@@ -108,15 +103,11 @@ Body Request:
 {
 "message": "Record added succfully for more details::http://localhost:9998/transfer/1"
 }
-=============================================
-4. Get user accounts - Get - http://localhost:9998/user/<userId>/accounts
-=============================================
 
-=============================================
-5. Create Account - http://localhost:9998/account/create
-=============================================
-Post Request:
-http://localhost:9998/account/create
+4. Get user accounts - Get - http://localhost:9998/user/<userId>/accounts
+
+
+5. Create Account Post - http://localhost:9998/account/create
 
 Body Request: // for automatic generation account number
 {
@@ -140,13 +131,9 @@ Response:
 
 # User Service
 
-=============================================
 1. Get all users - GET - http://localhost:9998/user/all
-=============================================
 
-=============================================
 2. Create User - Post -  http://localhost:9998/user/create
-=============================================
 
 Body Request:
 {
@@ -160,9 +147,8 @@ Response:
 "message": "User added successfully for more details::http://localhost:9998/user/3"
 }
 
-=============================================
 3. Update User - Put - http://localhost:9998/user/update
-=============================================
+
 Body Request:
 {
   "id":3,
@@ -176,9 +162,8 @@ Response:
 "message": "User updated successfully for more details::http://localhost:9998/user/3"
 }
 
-=============================================
 4. Get user accounts by userId - http://localhost:9998/user/<userId>/accounts
-=============================================
+
 Response:
 [
   {
@@ -200,9 +185,9 @@ Response:
 "accountBalance": 500
 }
 ]
-=============================================
+
 5. Get user details - http://localhost:9998/user/<id>
-=============================================
+
 {
 "userId": 1,
 "email": "user1@mail.com",
@@ -210,9 +195,8 @@ Response:
 "lastName": "Smith"
 }
 
-=============================================
 6. Get user details - http://localhost:9998/user/delete/1
-=============================================
+
 {
 "message": "User is deleted"
 }
@@ -220,9 +204,8 @@ Response:
 
 # Account Service
 
-=============================================
 1. reate Account - http://localhost:9998/account/create
-=============================================
+
 Post Request:
 http://localhost:9998/account/create
 
@@ -245,9 +228,8 @@ Response:
 "message": "Account is added successfully for more details::http://localhost:9998/account/7"
 }
 
-=============================================
 2. Update Account balance - http://localhost:9998/account/update  - balance, balance and currency only can be updated
-=============================================
+
 Put Request:
 http://localhost:9998/account/update
 
@@ -266,9 +248,8 @@ Response:
 }
 
 
-=============================================
 3. Get Account details by account number - http://localhost:9998/account/<AccNo>/details
-=============================================
+
 Get Request: 
 http://localhost:9998/account/PLN22029551373485/details
 
@@ -281,9 +262,9 @@ Response:
 "accountBalance": 1000
 }
 
-=============================================
+
 4. Get Account details by ID - http://localhost:9998/account/<id>
-=============================================
+
 Get Request: 
 http://localhost:9998/account/1
 
@@ -296,9 +277,8 @@ Response:
 "accountBalance": 123444
 }
 
-=============================================
 5. delete req Account details by ID - http://localhost:9998/account/1
-=============================================
+
 {
 "message": "Account is deleted"
 }
@@ -306,9 +286,9 @@ Response:
 
 # Transfer Service
 
-=============================================
+
 1. Create new transfer - http://localhost:9998/transfer/create
-=============================================
+
 Post Request: 
 
 
@@ -326,9 +306,8 @@ Body Request:
 "message": "Record added succfully for more details::http://localhost:9998/transfer/1"
 }
 
-=============================================
 2. Get transfer by ID - http://localhost:9998/transfer/<id>
-=============================================
+
 Post Request: 
 http://localhost:9998/transfer/1
 
@@ -346,9 +325,8 @@ Response:
 "comment": null
 }
 
-=============================================
 3. Get all transfers for userId - http://localhost:9998/transfer/usertrans/<userId>
-=============================================
+
 get Request:
 http://localhost:9998/transfer/usertrans/1
 
@@ -381,9 +359,8 @@ http://localhost:9998/transfer/usertrans/1
 
 # ExchangeRate Service
 
-=============================================
 1. Get by ID - http://localhost:9998/exchangerate/all
-=============================================
+
 
 [
   {
@@ -413,13 +390,10 @@ http://localhost:9998/transfer/usertrans/1
 ],
 
 
-=============================================
 2. Get http://localhost:9998/exchangerate/<curr_code>     ex - http://localhost:9998/exchangerate/USD
-=============================================
 
-=============================================
 3. Post http://localhost:9998/exchangerate/create
-=============================================
+
 
 Body
 {
@@ -432,9 +406,9 @@ Body
 "message": "Exchange Rate for 'CHF'is added successfully for more details::http://localhost:9998/exchangerate/5"
 }
 
-=============================================
+
 4. Put http://localhost:9998/exchangerate/update
-=============================================
+
 
 {
   "curreny": "CHF",
