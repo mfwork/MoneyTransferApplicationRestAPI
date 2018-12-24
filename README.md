@@ -22,8 +22,8 @@
 
 # Quick calls 
 =============================================
-
-#Loaded data sample when server started - get all users
+1. Loaded data sample when server started - get all users
+=============================================
 Get Request:
 http://localhost:9998/user/all
 
@@ -44,7 +44,7 @@ Response:
 ],
 
 =============================================
-get all accounts 
+2. get all accounts 
 =============================================
 Get Request:
 http://localhost:9998/account/all
@@ -90,7 +90,7 @@ Response:
 ],
 
 =============================================
-Create new transfer - http://localhost:9998/transfer/create
+3. Create new transfer - http://localhost:9998/transfer/create
 =============================================
 Post Request: 
 
@@ -109,11 +109,11 @@ Body Request:
 "message": "Record added succfully for more details::http://localhost:9998/transfer/1"
 }
 =============================================
-Get user accounts - Get - http://localhost:9998/user/<userId>/accounts
+4. Get user accounts - Get - http://localhost:9998/user/<userId>/accounts
 =============================================
 
 =============================================
-Create Account - http://localhost:9998/account/create
+5. Create Account - http://localhost:9998/account/create
 =============================================
 Post Request:
 http://localhost:9998/account/create
@@ -137,19 +137,15 @@ Response:
 "message": "Account is added successfully for more details::http://localhost:9998/account/7"
 }
 
+
+# User Service
+
 =============================================
-User Service
+1. Get all users - GET - http://localhost:9998/user/all
 =============================================
 
 =============================================
-Get all users - GET - http://localhost:9998/user/all
-=============================================
-{
-"message": "User is deleted"
-}
-
-=============================================
-Create User - Post -  http://localhost:9998/user/create
+2. Create User - Post -  http://localhost:9998/user/create
 =============================================
 
 Body Request:
@@ -165,7 +161,7 @@ Response:
 }
 
 =============================================
-Update User - Put - http://localhost:9998/user/update
+3. Update User - Put - http://localhost:9998/user/update
 =============================================
 Body Request:
 {
@@ -181,7 +177,7 @@ Response:
 }
 
 =============================================
-Get user accounts - http://localhost:9998/user/<userId>/accounts
+4. Get user accounts by userId - http://localhost:9998/user/<userId>/accounts
 =============================================
 Response:
 [
@@ -205,7 +201,7 @@ Response:
 }
 ]
 =============================================
-Get user details - http://localhost:9998/user/<id>
+5. Get user details - http://localhost:9998/user/<id>
 =============================================
 {
 "userId": 1,
@@ -215,19 +211,17 @@ Get user details - http://localhost:9998/user/<id>
 }
 
 =============================================
-Get user details - http://localhost:9998/user/delete/1
+6. Get user details - http://localhost:9998/user/delete/1
 =============================================
 {
 "message": "User is deleted"
 }
 
 
-=============================================
-Account Service
-=============================================
+# Account Service
 
 =============================================
-Create Account - http://localhost:9998/account/create
+1. reate Account - http://localhost:9998/account/create
 =============================================
 Post Request:
 http://localhost:9998/account/create
@@ -252,7 +246,7 @@ Response:
 }
 
 =============================================
-Update Account balance - http://localhost:9998/account/update  - balance, balance and currency only can be updated
+2. Update Account balance - http://localhost:9998/account/update  - balance, balance and currency only can be updated
 =============================================
 Put Request:
 http://localhost:9998/account/update
@@ -273,7 +267,7 @@ Response:
 
 
 =============================================
-Get Account details by account number - http://localhost:9998/account/<AccNo>/details
+3. Get Account details by account number - http://localhost:9998/account/<AccNo>/details
 =============================================
 Get Request: 
 http://localhost:9998/account/PLN22029551373485/details
@@ -288,7 +282,7 @@ Response:
 }
 
 =============================================
-Get Account details by ID - http://localhost:9998/account/<id>
+4. Get Account details by ID - http://localhost:9998/account/<id>
 =============================================
 Get Request: 
 http://localhost:9998/account/1
@@ -303,18 +297,17 @@ Response:
 }
 
 =============================================
-delete req Account details by ID - http://localhost:9998/account/1
+5. delete req Account details by ID - http://localhost:9998/account/1
 =============================================
 {
 "message": "Account is deleted"
 }
 
 
+# Transfer Service
+
 =============================================
-Transfer Service
-=============================================
-=============================================
-Create new transfer - http://localhost:9998/transfer/create
+1. Create new transfer - http://localhost:9998/transfer/create
 =============================================
 Post Request: 
 
@@ -334,7 +327,7 @@ Body Request:
 }
 
 =============================================
-Get transfer by ID - http://localhost:9998/transfer/<id>
+2. Get transfer by ID - http://localhost:9998/transfer/<id>
 =============================================
 Post Request: 
 http://localhost:9998/transfer/1
@@ -354,7 +347,7 @@ Response:
 }
 
 =============================================
-Get all transfers for userId - http://localhost:9998/transfer/usertrans/<userId>
+3. Get all transfers for userId - http://localhost:9998/transfer/usertrans/<userId>
 =============================================
 get Request:
 http://localhost:9998/transfer/usertrans/1
@@ -386,11 +379,10 @@ http://localhost:9998/transfer/usertrans/1
 }
 ]
 
+# ExchangeRate Service
+
 =============================================
-ExchangeRate Service
-=============================================
-=============================================
-1.Get - http://localhost:9998/exchangerate/all
+1. Get by ID - http://localhost:9998/exchangerate/all
 =============================================
 
 [
@@ -422,11 +414,11 @@ ExchangeRate Service
 
 
 =============================================
-2.Get http://localhost:9998/exchangerate/<curr_code>     ex - http://localhost:9998/exchangerate/USD
+2. Get http://localhost:9998/exchangerate/<curr_code>     ex - http://localhost:9998/exchangerate/USD
 =============================================
 
 =============================================
-3.Post http://localhost:9998/exchangerate/create
+3. Post http://localhost:9998/exchangerate/create
 =============================================
 
 Body
@@ -441,7 +433,7 @@ Body
 }
 
 =============================================
-4.Put http://localhost:9998/exchangerate/update
+4. Put http://localhost:9998/exchangerate/update
 =============================================
 
 {
